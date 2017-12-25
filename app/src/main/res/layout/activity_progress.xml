@@ -5,22 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context="com.wxyass.asynctasktest.MainActivity">
 
-    <Button
-        android:id="@+id/imageload"
+
+    <ProgressBar
+        android:id="@+id/loadprogressbar"
+        style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="image"
-        />
-
-    <Button
-        android:id="@+id/toprogerssload"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/imageload"
-        android:text="progress"
-        />
-
-
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
 </RelativeLayout>
