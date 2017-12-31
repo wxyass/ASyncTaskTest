@@ -7,9 +7,9 @@ import android.util.Log;
  * Created by yangwenmin on 2017/12/24.
  *
  * AsyncTask<Void,Void,Void>
- * Params:      启动任务时输入参数的类型
- * Progress:    后台任务执行中返回进度值的类型
- * Result:      后台执行任务完成后返回结果的类型
+ * Params:      参数类型:启动任务时输入参数的类型
+ * Progress:    进度值类型: 后台任务执行中返回进度值的类型
+ * Result:      返回值类型: 后台执行任务完成后返回结果的类型
  */
 
 public class MyAsyncTask extends AsyncTask<Void,Void,Void> {
